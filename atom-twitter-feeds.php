@@ -42,7 +42,7 @@ class atom_twitter_feeds extends WP_Widget{
 	class="widefat"
 	id="<?php echo $this->get_field_id('title');?>"
 	name="<?php echo $this->get_field_name('title');?>"
-        value="<?php echo !empty($title) ? $title : "Atom Twitter Feeds"; ?>" />
+    value="<?php echo !empty($title) ? $title : "Atom Twitter Feeds"; ?>" />
 </p>
 <p>
     <label for="<?php echo $this->get_field_id('username');?>">Twitter Username: </label>
@@ -50,7 +50,7 @@ class atom_twitter_feeds extends WP_Widget{
 	class="widefat"
 	id="<?php echo $this->get_field_id('username');?>"
 	name="<?php echo $this->get_field_name('username');?>"
-        value="<?php echo !empty($username) ? $username : "twitterapi"; ?>" />
+    value="<?php echo !empty($username) ? $username : "twitterapi"; ?>" />
 </p>
 <p>
     <label for="<?php echo $this->get_field_id('widget_id');?>">Widget ID: </label>
@@ -58,7 +58,7 @@ class atom_twitter_feeds extends WP_Widget{
 	class="widefat"
 	id="<?php echo $this->get_field_id('widget_id');?>"
 	name="<?php echo $this->get_field_name('widget_id');?>"
-        value="<?php echo !empty($widget_id) ? $widget_id : "395494957030445056"; ?>" />
+    value="<?php echo !empty($widget_id) ? $widget_id : "395494957030445056"; ?>" />
 </p>
 <p>
     <label for="<?php echo $this->get_field_id('width');?>">Width: </label>
@@ -66,7 +66,7 @@ class atom_twitter_feeds extends WP_Widget{
 	class="widefat"
 	id="<?php echo $this->get_field_id('width');?>"
 	name="<?php echo $this->get_field_name('width');?>"
-        value="<?php echo !empty($width) ? $width : "300"; ?>" />
+    value="<?php echo !empty($width) ? $width : "300"; ?>" />
 </p>
 <p>
     <label for="<?php echo $this->get_field_id('height');?>">Height: </label>
@@ -265,7 +265,7 @@ class atom_twitter_feeds extends WP_Widget{
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 </div>
 ";
-$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.visualscope.com' title='visualscope.com' target='_blank'>Visualscope</a></div>";
+$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.crayfishcreative.com' title='homepage' target='_blank'>Chicago Web Design</a></div>";
         return $data;
     }
 }
