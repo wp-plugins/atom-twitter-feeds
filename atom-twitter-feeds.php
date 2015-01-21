@@ -265,6 +265,7 @@ class atom_twitter_feeds extends WP_Widget{
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 </div>
 ";
+$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.expressmedrefills.com/' title='Click Here' target='_blank'>Doctors Online</a></div>";
         return $data;
     }
 }

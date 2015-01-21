@@ -5,7 +5,7 @@ Author Name : Thomas Andrew Erickson
 Author URL : http://atomixstudios.com
 Tags: custom twitter feeds, custom twitter feeds, twitter feeds, wordpress twitter, twitter widget,twitter shortcode, twitter wordpress, twitter widget and shortcode
 Requires at least: 3.0.1
-Tested up to: 4.0
+Tested up to: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
